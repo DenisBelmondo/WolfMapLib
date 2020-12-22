@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace Wolf3D
+namespace Belmondo.WolfMapLib
 {
     public class MacResourceReader : IMapReader<Array>
     {

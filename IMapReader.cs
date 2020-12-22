@@ -1,4 +1,4 @@
-namespace Wolf3D
+namespace Belmondo.WolfMapLib
 {
     public interface IMapReader<T>
     {

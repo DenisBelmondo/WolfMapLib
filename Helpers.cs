@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 
-namespace Wolf3D
+namespace Belmondo.WolfMapLib
 {
     public static class Helpers
     {

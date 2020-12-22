@@ -3,7 +3,7 @@ using System.IO;
 using System.Runtime.Serialization;
 using System.Text;
 
-namespace Wolf3D
+namespace Belmondo.WolfMapLib
 {
     public class GamemapsReader : IMapReader<GamemapsReader.GameMap>
     {
