@@ -1,6 +1,6 @@
 namespace Belmondo.WolfMapLib
 {
-    public interface IMapReader<T>
+    public interface IMapSet<T>
     {
         T GetMap(int mapNum);
     }

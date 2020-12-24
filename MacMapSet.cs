@@ -1,11 +1,10 @@
 using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
 namespace Belmondo.WolfMapLib
 {
-    public class MacResourceReader : IMapReader<Array>
+    public class MacMapSet : IMapSet<Array>
     {
         protected enum BrgrConstant
         {
@@ -107,7 +106,7 @@ namespace Belmondo.WolfMapLib
 
         protected readonly FileInfo MacBin;
 
-        public MacResourceReader(FileInfo macBin)
+        public MacMapSet(FileInfo macBin)
         {
             MacBin = macBin;
 

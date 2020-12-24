@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Belmondo.WolfMapLib
 {
-    public class GamemapsReader : IMapReader<GamemapsReader.GameMap>
+    public class WL6MapSet : IMapSet<WL6MapSet.GameMap>
     {
         public class GamemapsReaderException : Exception
         {
@@ -206,7 +206,7 @@ namespace Belmondo.WolfMapLib
             return dest;
         }
 
-        public GamemapsReader(FileInfo mapHead, FileInfo gameMaps)
+        public WL6MapSet(FileInfo mapHead, FileInfo gameMaps)
         {
             MapHead = mapHead;
             GameMaps = gameMaps;
